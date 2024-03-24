@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motel Customer Information</title>
+  </head>
+  <body>
+    <div id="CustomerDescription"></div>
+
+    <script src="motelCustomer.js"></script>
+
+    <script>
+      const customerDescriptionElement = document.getElementById(
+        "CustomerDescription"
+      );
+
+      customerDescriptionElement.innerHTML = MotelCustomer.Description();
+    </script>
+  </body>
+</html>
